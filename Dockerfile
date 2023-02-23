@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM maven:3.6.0-jdk-11
 
 # Node.js
 
