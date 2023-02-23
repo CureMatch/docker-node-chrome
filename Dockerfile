@@ -1,8 +1,7 @@
-FROM maven:3.6.0-jdk-11
+FROM openjdk:8-jdk
 
 # Node.js
-
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
 	&& apt-get install -y nodejs \
 	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
