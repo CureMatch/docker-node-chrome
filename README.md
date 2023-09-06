@@ -5,8 +5,9 @@ Docker image for Node.js automated UI tests.
 Includes:
 
 * JDK 8
-* Node.js 12.x
+* Node.js 14.x
 * Chrome (latest)
+* Cypress
 
 Available on [Docker Hub](https://hub.docker.com/r/markhobson/node-chrome/).
 
