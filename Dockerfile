@@ -15,4 +15,4 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
 	&& sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --no-sandbox/g' /opt/google/chrome/google-chrome
 
 # Latest Cypress
-RUN npm install cypress --save-dev
+#RUN npm install cypress --save-dev
